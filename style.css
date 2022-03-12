@@ -1,0 +1,53 @@
+body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    list-style-type: none; /* 점  은 없어요 */
+}
+a {
+    text-decoration: none;/* 줄  은 없어요 */
+}
+#wrapper {
+    background-color: rgba(0, 255, 0);
+}
+#top{
+    display: block;
+
+    text-align: center;
+    background-color: rgb(0, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+}
+#top2{
+    display: block;
+
+    text-align: center;
+    background-color: rgb(0, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+}
+#menu {
+    display: flex;
+}
+.menu-item {
+    background-color: rgb(0, 255, 255);
+    flex-grow: 1;
+    transition: 0.5s;
+}
+.menu-item:hover{
+    background-color:rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    flex-grow: 1.5;
+    
+}
+.menu-link {
+    display: block;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
